@@ -38,17 +38,50 @@ If the output is 1, then the led glows.
 Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: YAZHINI S
+RegisterNumber: 212223050062 
 */
-Logic symbol & Truthtable
-RTL realization
+
+##Code:
+
+module YAZHINI(x,y,s,c); input x,y; output s,c; xor(s,x,y); and(c,x,y); endmodule
+
+module full_adder(x, y, z, s, c, x1, x2, x3); input x, y,z; output s ,c, x1, x2, x3; xor(x1, x, y); xor(s, x1, z); and(x2, x, y); and(x3, x1, z); or(c, x2, x3); endmodule
 
 ### Output:
-### RTL
+###RTL
+
+Half adder:
+
+![image](https://github.com/yazhini119/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155442058/ac94e647-b91d-44ce-85a5-d42c66363491)
+
+Full adder:
+
+![image](https://github.com/yazhini119/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155442058/2fc2e2e1-0d46-4291-ab05-094fa4aef4a3)
+
 ### TIMING DIAGRAM
+
+Half adder:
+
+![image](https://github.com/yazhini119/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155442058/11474d4e-ba71-4541-942f-103e7ee2f0a9)
+
+Full adder:
+
+![image](https://github.com/yazhini119/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155442058/48322b56-a80a-484c-9e11-3d6455d2e096)
 
 
 ### TRUTH TABLE 
 
+Half adder:
+
+![image](https://github.com/yazhini119/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155442058/13c4f389-89f6-4524-8a34-33c186de0351)
+
+Full adder:
+
+![image](https://github.com/yazhini119/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155442058/a1119f8f-4ecc-4b8f-8208-2ea9d19ffbb9)
+
+
+
 ### Result:
+
+Thus the half adder and full adder circuit are designed and the truth table for half adder and full adder are verified.
