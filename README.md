@@ -80,6 +80,4 @@ Full adder:
 
 ![image](https://github.com/yazhini119/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/155442058/a1119f8f-4ecc-4b8f-8208-2ea9d19ffbb9)
 
-
-
 ### Result:Thus the half adder and full adder circuit are designed and the truth table for half adder and full adder are verified.
